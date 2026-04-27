@@ -56,7 +56,7 @@ For creating cloud-native, horizontally scaling Content Management Services that
 <dependency>
     <groupId>it.intesys</groupId>
     <artifactId>spring-content-fs-boot-starter</artifactId>
-    <version>{{ env.SPRING_CONTENT_GA_VERSION }}</version>
+    <version>{{ config.extra.spring_content_ga_version }}</version>
 </dependency>
 ```
 
@@ -117,43 +117,43 @@ For more, check out our initial [Getting Started Guide](spring-content-fs-docs.m
             <td>Spring Content S3</td>
             <td><a href="refs/release/2.9.0/s3-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/s3-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/s3-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/s3-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/s3-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/s3-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <td>Spring Content GCS</td>
             <td><a href="refs/release/2.9.0/gcs-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/gcs-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/gcs-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/gcs-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/gcs-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/gcs-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <td>Spring Content Azure Storage</td>
             <td><a href="refs/release/2.9.0/azure-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/azure-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/azure-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/azure-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/azure-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/azure-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <td>Spring Content Filesystem</td>
             <td><a href="refs/release/2.9.0/fs-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/fs-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/fs-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/fs-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/fs-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/fs-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <td>Spring Content Mongo (GridFS)</td>
             <td><a href="refs/release/2.9.0/mongo-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/mongo-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/mongo-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/mongo-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/mongo-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/mongo-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <td>Spring Content JPA</td>
             <td><a href="refs/release/2.9.0/jpa-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/jpa-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/jpa-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/jpa-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/jpa-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/jpa-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <th colspan=9>Renditions</th>
@@ -162,8 +162,8 @@ For more, check out our initial [Getting Started Guide](spring-content-fs-docs.m
             <td>Spring Content Renditions</td>
             <td><a href="refs/release/2.9.0/renditions-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/renditions-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/renditions-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/renditions-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/renditions-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/renditions-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <th colspan=9>Versioning</th>
@@ -172,8 +172,8 @@ For more, check out our initial [Getting Started Guide](spring-content-fs-docs.m
             <td>Spring Versions JPA</td>
             <td><a href="refs/release/2.9.0/jpaversions-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/jpaversions-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/jpaversions-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/jpaversions-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/jpaversions-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/jpaversions-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <th colspan=9>Fulltext Indexing</th>
@@ -182,15 +182,15 @@ For more, check out our initial [Getting Started Guide](spring-content-fs-docs.m
             <td>Spring Content Solr</td>
             <td><a href="refs/release/2.9.0/solr-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/solr-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/solr-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/solr-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/solr-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/solr-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <td>Spring Content Elasticsearch</td>
             <td><a href="refs/release/2.9.0/elasticsearch-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/elasticsearch-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/elasticsearch-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/elasticsearch-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/elasticsearch-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/elasticsearch-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <th colspan=9>APIs</th>
@@ -199,15 +199,15 @@ For more, check out our initial [Getting Started Guide](spring-content-fs-docs.m
             <td>Spring Content REST</td>
             <td><a href="refs/release/2.9.0/rest-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/rest-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/rest-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/rest-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/rest-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/rest-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <td>Spring Content CMIS</td>
             <td><a href="refs/release/2.9.0/cmis-index.html">2.9.0</a></td>
             <td><a href="refs/snapshot/2.x.x/cmis-index.html">2.10.0</a></td>
-            <td><a href="refs/release/{{ env.SPRING_CONTENT_GA_VERSION }}/cmis-index.html">{{ env.SPRING_CONTENT_GA_VERSION }}</a></td>
-            <td><a href="refs/snapshot/main/cmis-index.html">{{ env.SPRING_CONTENT_SNAPSHOT_VERSION }}</a></td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/cmis-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/cmis-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
     </tbody>
 </table>

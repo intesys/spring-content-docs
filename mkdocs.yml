@@ -17,3 +17,6 @@ plugins:
       repository: intesys/spring-content
       branch: main
   - macros
+extra:
+  spring_content_ga_version: !ENV [ SPRING_CONTENT_GA_VERSION, "UNKNOWN" ]
+  spring_content_snapshot_version: !ENV [ SPRING_CONTENT_SNAPSHOT_VERSION, "UNKNOWN" ]

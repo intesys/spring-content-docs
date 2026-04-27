@@ -31,7 +31,7 @@ When you're finished, you can check your results against the code in
 
 ## Update dependencies
 
-Add the `com.github.paulcwarren:spring-content-encryption` dependency.  This provides us the implementation of a EncryptingContentStore.
+Add the `it.intesys:spring-content-encryption` dependency.  This provides us the implementation of a EncryptingContentStore.
 
 Also add `org.testcontainers:vault:1.17.6`.  We are going to use vault to provide a keyring for encrypting the content encryption key which in turn is used to encrypt the content. 
 

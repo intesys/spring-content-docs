@@ -110,7 +110,7 @@ Let's investigate this interface:-
 - `ContentStore` provides several methods for handling content; setContent,
 getContent and unsetContent
 
-- The dependency `com.github.paulcwarren:spring-content-fs-boot-starter`
+- The dependency `it.intesys:spring-content-fs-boot-starter`
 provides a Filesystem-based implementation of this interface and Spring
 Content auto-configuration ensures that this implementation will be used
 wherever the `FileContentRepository` is `@Autowired`.

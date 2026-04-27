@@ -29,7 +29,7 @@ When you’re finished, you can check your results against the code in
 
 ### Update dependencies
 
-Add the `com.github.paulcwarren:spring-versions-boot-starter` and `org.springframework.boot:spring-boot-starter-security` dependencies.
+Add the `it.intesys:spring-versions-boot-starter` and `org.springframework.boot:spring-boot-starter-security` dependencies.
 
 `pom.xml`
 

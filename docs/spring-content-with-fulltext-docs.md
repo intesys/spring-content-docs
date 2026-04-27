@@ -29,7 +29,7 @@ When you’re finished, you can check your results against the code in
 
 ### Update dependencies
 
-Add the `com.github.paulcwarren:spring-content-elasticsearch-boot-starter` and `org.elasticsearch.client:elasticsearch-rest-high-level-client` dependencies.
+Add the `it.intesys:spring-content-elasticsearch-boot-starter` and `org.elasticsearch.client:elasticsearch-rest-high-level-client` dependencies.
 
 `pom.xml`
 

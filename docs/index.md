@@ -54,7 +54,7 @@ For creating cloud-native, horizontally scaling Content Management Services that
 
 ```xml
 <dependency>
-    <groupId>com.github.paulcwarren</groupId>
+    <groupId>it.intesys</groupId>
     <artifactId>spring-content-fs-boot-starter</artifactId>
     <version>3.0.13</version>
 </dependency>

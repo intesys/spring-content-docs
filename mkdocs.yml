@@ -16,3 +16,4 @@ plugins:
   - git-committers:
       repository: intesys/spring-content
       branch: main
+  - macros

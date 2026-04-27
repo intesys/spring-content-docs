@@ -21,7 +21,7 @@ We'll build on the previous guide [Getting Started with Spring Content REST API]
 Before we begin let's set up our development environment:
 
 - Download and unzip the source repository for this guide, or clone it
-using Git: `git clone https://github.com/paulcwarren/spring-content-gettingstarted.git`
+using Git: `git clone https://github.com/intesys/spring-content-gettingstarted.git`
 
 - We are going to start where Getting Started with Spring Content REST API leaves off so
  `cd` into `spring-content-gettingstarted/spring-content-rest/complete`
@@ -38,7 +38,7 @@ Also add `org.testcontainers:vault:1.17.6`.  We are going to use vault to provid
 `pom.xml`
 
 ```java
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-encryption/complete/pom.xml 1-60}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-encryption/complete/pom.xml 1-60}
 ```
 
 ## Vault TestContainer
@@ -48,7 +48,7 @@ First we add a simple class that creates and starts a vault test container upon 
 `src/main/java/gettingstarted/VaultContainerSupport.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/VaultContainerSupport.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/VaultContainerSupport.java 1-}
 ```
 
 
@@ -59,7 +59,7 @@ Next we need to introduce a small `Configuration` class to provide a vault endpo
 `src/main/java/gettingstarted/SpringContentApplication.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/SpringContentApplication.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/SpringContentApplication.java 1-}
 ```
 
 Points to note:
@@ -74,7 +74,7 @@ Update File to add the new content property attribute called `key` that will sto
 `src/main/java/gettingstarted/File.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/File.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/File.java 1-}
 ```
 
 ## Update FileContentStore
@@ -84,7 +84,7 @@ Decorate the `FileContentStore` as an `EncryptingContentStore` to enable encrypt
 `src/main/java/gettingstarted/FileContentStore.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-encryption/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
 ```
 
 ## Build an executable JAR

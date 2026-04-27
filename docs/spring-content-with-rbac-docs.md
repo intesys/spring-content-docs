@@ -19,7 +19,7 @@ We'll build on the previous guide [Getting Started with Spring Content REST API]
 Before we begin let's set up our development environment:
 
 - Download and unzip the source repository for this guide, or clone it
-using Git: `git clone https://github.com/paulcwarren/spring-content-gettingstarted.git`
+using Git: `git clone https://github.com/intesys/spring-content-gettingstarted.git`
 
 - We are going to start where Getting Started with Spring Content REST API leaves off so
  `cd` into `spring-content-gettingstarted/spring-content-rest/complete`
@@ -34,14 +34,14 @@ Add `org.springframework.boot:spring-boot-starter-security` dependencies.
 `pom.xml`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-rbac/complete/pom.xml 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-rbac/complete/pom.xml 1-}
 ```
 ## Add Security Constraints
 
 Enable web security.
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-rbac/complete/src/main/java/gettingstarted/SpringSecurityConfig.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-rbac/complete/src/main/java/gettingstarted/SpringSecurityConfig.java 1-}
 ```
 
 First, define two users and two roles.  Eric is a content `reader` and Paul is a content `reader` and `author`.
@@ -53,7 +53,7 @@ Second, secure the Spring Content endpoint `/files/**/content` that `GETs` and `
 As an alternative secure removing content to the `author` role by using an alternative approach using the `@PreAuthorize` annotation on the FileContentStore's `unset` method.
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-rbac/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-rbac/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
 ```
 
 ## Build an executable JAR

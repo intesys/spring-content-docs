@@ -24,7 +24,7 @@ To start from scratch, move on to Build with Maven.
 
 To skip the basics, do the following:
 
-- Download and unzip the source repository for this guide, or clone it using Git: `git clone https://github.com/paulcwarren/spring-content-gettingstarted.git`
+- Download and unzip the source repository for this guide, or clone it using Git: `git clone https://github.com/intesys/spring-content-gettingstarted.git`
 
 - `cd` into `spring-content-gettingstarted/spring-content-with-cmis/initial`
 
@@ -51,7 +51,7 @@ In a project directory of your choosing, create the following subdirectory struc
 `pom.xml`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-cmis/complete/pom.xml 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-cmis/complete/pom.xml 1-}
 ```
 
 We add several dependencies:-
@@ -79,7 +79,7 @@ We need to initialize various aspects of our application.  First we'll add the u
 `src/main/java/gettingstarted/SpringContentApplication.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/SpringContentApplication.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/SpringContentApplication.java 1-}
 ```
 
 Let's talk through the annotations:
@@ -107,7 +107,7 @@ they can both inherit from:
 `src/main/java/gettingstarted/BaseObject.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/BaseObject.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/BaseObject.java 1-}
 ```
 
 As you would expect we created a standard JPA Entity to capture some common metadata; `name` and `description`.  Standard audit 
@@ -125,7 +125,7 @@ documents hierarchically.
 `src/main/java/gettingstarted/Folder.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/Folder.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/Folder.java 1-}
 ```
 
 Note the `@CmisFolder` annotation that maps this entity to the cmis:folder object type.  Also note the `@CmisReference` annotation instructing Spring Content CMIS that this is the other end of the parent/child relationship.
@@ -137,7 +137,7 @@ Lastly, we'll create the Document entity.
 `src/main/java/gettingstarted/Document.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/Document.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-cmis/complete/src/main/java/gettingstarted/Document.java 1-}
 ```
 
 Again, note the `@CmisDocument` that maps this entity to the cmis:document object type.  We also see the standard Spring Versions

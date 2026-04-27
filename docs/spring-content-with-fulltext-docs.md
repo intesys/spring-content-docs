@@ -19,7 +19,7 @@ We'll build on the previous guide [Getting Started with Spring Content REST API]
 Before we begin let's set up our development environment:
 
 - Download and unzip the source repository for this guide, or clone it
-using Git: `git clone https://github.com/paulcwarren/spring-content-gettingstarted.git`
+using Git: `git clone https://github.com/intesys/spring-content-gettingstarted.git`
 
 - We are going to start where Getting Started with Spring Content REST API leaves off so
  `cd` into `spring-content-gettingstarted/spring-content-rest/complete`
@@ -34,7 +34,7 @@ Add the `it.intesys:spring-content-elasticsearch-boot-starter` and `org.elastics
 `pom.xml`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-fulltext/complete/pom.xml 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-fulltext/complete/pom.xml 1-}
 ```
 
 ## Update FileContentStore
@@ -44,7 +44,7 @@ So that we can perform full-text searches make your FileContentStore extend `Sea
 `src/main/java/gettingstarted/FileContentStore.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-fulltext/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-fulltext/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
 ```
 
 ## Build an executable JAR

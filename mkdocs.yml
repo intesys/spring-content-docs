@@ -14,5 +14,5 @@ nav:
 plugins:
   - search
   - git-committers:
-      repository: paulcwarren/spring-content
+      repository: intesys/spring-content
       branch: main

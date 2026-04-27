@@ -19,7 +19,7 @@ We'll build on the previous guide [Getting Started with Spring Content REST API]
 Before we begin let's set up our development environment:
 
 - Download and unzip the source repository for this guide, or clone it
-using Git: `git clone https://github.com/paulcwarren/spring-content-gettingstarted.git`
+using Git: `git clone https://github.com/intesys/spring-content-gettingstarted.git`
 
 - We are going to start where Getting Started with Spring Content REST API leaves off so
  `cd` into `spring-content-gettingstarted/spring-content-rest/complete`
@@ -34,7 +34,7 @@ Add the `it.intesys:spring-content-renditions-boot-starter` dependency.
 `pom.xml`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-renditions/complete/pom.xml 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-renditions/complete/pom.xml 1-}
 ```
 
 ## Update File
@@ -46,7 +46,7 @@ will be by Spring Content REST.
 `src/main/java/gettingstarted/File.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/File.java 1-33}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/File.java 1-33}
 ```
 
 ## Update FileContentStore
@@ -56,7 +56,7 @@ So that we can fetch renditions make your FileContentStore extend `Renderable`.
 `src/main/java/gettingstarted/FileContentStore.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
 ```
 
 ## Build an executable JAR
@@ -108,7 +108,7 @@ Add a second content property to store the rendition.
 `src/main/java/gettingstarted/File.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/File.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/File.java 1-}
 ```
 
 ### Add Event Handler
@@ -119,7 +119,7 @@ it in the second content property we just created.  Then remove it again when th
 `src/main/java/gettingstarted/StoredRenditionsEventHandler.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/StoredRenditionsEventHandler.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/StoredRenditionsEventHandler.java 1-}
 ```
 
 and register it.
@@ -127,7 +127,7 @@ and register it.
 `src/main/java/gettingstarted/SpringContentApplication.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/SpringContentApplication.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-renditions/complete/src/main/java/gettingstarted/SpringContentApplication.java 1-}
 ```
 
 ## Test Store Renditions

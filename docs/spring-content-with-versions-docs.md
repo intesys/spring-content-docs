@@ -19,7 +19,7 @@ We'll build on the previous guide [Getting Started with Spring Content REST API]
 Before we begin let's set up our development environment:
 
 - Download and unzip the source repository for this guide, or clone it
-using Git: `git clone https://github.com/paulcwarren/spring-content-gettingstarted.git`
+using Git: `git clone https://github.com/intesys/spring-content-gettingstarted.git`
 
 - We are going to start where Getting Started with Spring Content REST API leaves off so
  `cd` into `spring-content-gettingstarted/spring-content-rest/complete`
@@ -34,7 +34,7 @@ Add the `it.intesys:spring-versions-boot-starter` and `org.springframework.boot:
 `pom.xml`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-versions/complete/pom.xml 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-versions/complete/pom.xml 1-}
 ```
 
 ## Update File Entity
@@ -44,7 +44,7 @@ Add the following annotations to our Entity.
 `src/main/java/gettingstarted/File.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/File.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/File.java 1-}
 ```
 
 `@LockOwner`; tracks the current lock owner.  Optional
@@ -63,7 +63,7 @@ So that we can perform version operations on an Entity make your FileRepository 
 `src/main/java/gettingstarted/FileRepository.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/FileRepository.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/FileRepository.java 1-}
 ```
 
 ## Update Configuratoin
@@ -71,13 +71,13 @@ So that we can perform version operations on an Entity make your FileRepository 
 Add a Store configuration to tell Spring Data JPA to look in the package `org.springframework.versions` for the implementation of the `LockingAndVersioningRepository`.  Because of this you will also need to tell Spring Data to find `FileRepository` in the `gettingstarted` package. 
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/SpringContentApplication.java 29-32}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/SpringContentApplication.java 29-32}
 ```
 
 Enable web security and add an anonymous user principal.
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/SpringContentApplication.java 34-79}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-with-versions/complete/src/main/java/gettingstarted/SpringContentApplication.java 34-79}
 ```
 
 ## Build an executable JAR

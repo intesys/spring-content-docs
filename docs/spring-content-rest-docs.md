@@ -20,7 +20,7 @@ we produced in our first [Getting Started Guide](spring-content-fs-docs.md).
 Before we begin let's set up our development environment:
 
 - Download and unzip the source repository for this guide, or clone it
-using Git: `git clone https://github.com/paulcwarren/spring-content-gettingstarted.git`
+using Git: `git clone https://github.com/intesys/spring-content-gettingstarted.git`
 
 - We are going to start form where we left of in the last Getting Started
 Guide so `cd` into `spring-content-gettingstarted/spring-content-fs/complete`
@@ -37,7 +37,7 @@ Add the `it.intesys:spring-content-rest-boot-starter` dependency.
 `pom.xml`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-rest/complete/pom.xml 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-rest/complete/pom.xml 1-}
 ```
 
 ## Update File Entity
@@ -47,7 +47,7 @@ Add the `@MimeType` marker annotation to our Entity.
 `src/main/java/gettingstarted/File.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-rest/complete/src/main/java/gettingstarted/File.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-rest/complete/src/main/java/gettingstarted/File.java 1-}
 ```
 
 The `contentMimeType` attribute is updated with the Spring Content  `@MimeType`
@@ -62,7 +62,7 @@ API, update our `FileContentStore` by annotating it with the
 `src/main/java/gettingstarted/FileContentStore.java`
 
 ```
-{snippet: https://raw.githubusercontent.com/paulcwarren/spring-content-gettingstarted/main/spring-content-rest/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
+{snippet: https://raw.githubusercontent.com/intesys/spring-content-gettingstarted/main/spring-content-rest/complete/src/main/java/gettingstarted/FileContentStore.java 1-}
 ```
 
 ## Remove FileContentController

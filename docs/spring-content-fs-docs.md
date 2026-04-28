@@ -199,7 +199,12 @@ And then point your browser at:-
 
 and you should see something like this:-
 
-<center>![Spring Content Webapp](spring-content-fs-webapp.png)</center>
+<p align="center">
+  <img src="spring-content-fs-webapp.png" alt="spring-content-fs-webapp">
+</p>
+<p align="center">
+  <em>Figure 1. Spring Content Webapp</em>
+</p>
 
 Exercise the application by uploading a range of new files and viewing
 them.  Viewed files will be downloaded and open in the appropriate editor.

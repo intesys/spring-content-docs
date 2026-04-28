@@ -47,8 +47,12 @@ For creating cloud-native, horizontally scaling Content Management Services that
 
 ## Overview
 
-<center>![spring-content-arch](spring-content-arch.jpg)</center>
-<center>_Figure 1. understanding how Spring Content fits into the Spring eco-system_</center>
+<p align="center">
+  <img src="spring-content-arch.jpg" alt="spring-content-arch">
+</p>
+<p align="center">
+  <em>Figure 1. understanding how Spring Content fits into the Spring eco-system</em>
+</p>
 
 ## Quick Start
 

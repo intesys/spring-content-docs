@@ -87,7 +87,12 @@ And then point your browser at:-
 
 and you should see something like this:-
 
-<center>![Spring Content Webapp](spring-content-fs-webapp.png)</center>
+<p align="center">
+  <img src="spring-content-fs-webapp.png" alt="spring-content-fs-webapp">
+</p>
+<p align="center">
+  <em>Figure 1. Spring Content Webapp</em>
+</p>
 
 As you did in the previous tutorial, exercise the application by uploading
 a range of new files and viewing them.  You should see viewed files open
@@ -131,7 +136,12 @@ Follow the `content` link relation to add content either using CURL:
 
 Or, if you prefer, by uploading the content via postman:
 
-<center>![Content Upload via Postman](spring-content-rest-postman.png)</center>
+<p align="center">
+  <img src="spring-content-rest-postman.png" alt="spring-content-rest-postman">
+</p>
+<p align="center">
+  <em>Figure 2. Content Upload via Postman</em>
+</p>
 
 ---
 **NOTE**

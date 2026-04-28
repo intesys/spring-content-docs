@@ -184,35 +184,65 @@ Spring Content CMIS exports the CMIS browser bindings to the `/browser` endpoint
 
 The username and password, as per the `SecurityConfig`, is `test/test`.
 
-<center>![Spring Content With CMIS Workbench Login](spring-content-with-cmis-login.png)</center>
+<p align="center">
+  <img src="spring-content-with-cmis-login.png" alt="spring-content-with-cmis-login">
+</p>
+<p align="center">
+  <em>Figure 1. Spring Content With CMIS Workbench Login</em>
+</p>
 
 Click `Load Repositores` and you should see this:
 
-<center>![Spring Content With CMIS Workbench Repositories](spring-content-with-cmis-repositories.png)</center>
+<p align="center">
+  <img src="spring-content-with-cmis-repositories.png" alt="spring-content-with-cmis-repositories">
+</p>
+<p align="center">
+  <em>Figure 2. Spring Content With CMIS Workbench Repositories</em>
+</p>
 
 This information should match the information provided in the Application class.  
 
 Click `Login` and you should see something like this:
 
-<center>![Spring Content With CMIS Workbench](spring-content-with-cmis-workbench.png)</center>
+<p align="center">
+  <img src="spring-content-with-cmis-workbench.png" alt="spring-content-with-cmis-workbench">
+</p>
+<p align="center">
+  <em>Figure 3. Spring Content With CMIS Workbench</em>
+</p>
 
 Let's create a folder.  Click `Create Object` -> `Folder`.  Enter `test-folder` as the name and click `Create Folder`.
 
 You'll see the folder in the navigation pane.  Double-click on the folder to navigate into it.  Select the `Properties` tab
 to view its properties.
 
-<center>![Spring Content With CMIS Folder](spring-content-with-cmis-folder.png)</center>
+<p align="center">
+  <img src="spring-content-with-cmis-folder.png" alt="spring-content-with-cmis-folder">
+</p>
+<p align="center">
+  <em>Figure 4. Spring Content With CMIS Folder</em>
+</p>
 
 Now, let's create a Document in this Folder.  Click `Create Object` -> `Document`.  Enter `test-document` as the name and 
 generate 100 bytes of content.  Click `Create Document`.
 
-<center>![Spring Content With CMIS Document](spring-content-with-cmis-document.png)</center>
+<p align="center">
+  <img src="spring-content-with-cmis-document.png" alt="spring-content-with-cmis-document">
+</p>
+<p align="center">
+  <em>Figure 5. Spring Content With CMIS Document</em>
+</p>
 
 Let's take a look at its content.  Double-click on the document in the navigator to open the content in a new window.
 
 Earlier we made our Entity's versionable by having our `DocumentRepository` extend `LockingAndVersioningRepository` so let's create a new version of this document.  Make sure the document is selected in the navigator.  Select the `Actions` tab and `Check-out Object`.  Now you should see two documents in your navigator.  One blue, the original.  One green, a private working copy of the new version.
 
-<center>![Spring Content With CMIS Private Working Copy](spring-content-with-cmis-pwc.png)</center>
+<p align="center">
+  <img src="spring-content-with-cmis-pwc.png" alt="spring-content-with-cmis-pwc">
+</p>
+<p align="center">
+  <em>Figure 6. Spring Content With CMIS Private Working Copy</em>
+</p>
 
 Usually, a user would iterate on their content and save it by setting the content stream.  All of which is private to them.
 For simplicity we'll skip this step and go straight to checking in.  In the `Check-in Object` panel select a local file and 

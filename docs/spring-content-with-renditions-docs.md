@@ -95,7 +95,12 @@ it is an image let's save it to a file:
 
 Note the time the operation tookk and inspect the image `open /tmp/file-1.jpg` and you should see an image like this:
 
-<center>![Spring Content Rendition](spring-content-with-renditions.png)</center>
+<p align="center">
+  <img src="spring-content-with-renditions.png" alt="spring-content-with-renditions">
+</p>
+<p align="center">
+  <em>Figure 1. Spring Content Rendition</em>
+</p>
 
 ## Stored Renditions
 
@@ -150,7 +155,12 @@ the mime-type `image/jpeg` as the accept header.  Note, we are still addressing 
 
 Note the time completed quicker (roughly twice as fast) as it was returning the previous stored rendition rather than converting it on the fly.  Inspect the image by opening `/tmp/file-2.jpg` and you should see an image like this:
 
-<center>![Spring Content Rendition](spring-content-with-stored-renditions.png)</center>
+<p align="center">
+  <img src="spring-content-with-stored-renditions.png" alt="spring-content-with-stored-renditions">
+</p>
+<p align="center">
+  <em>Figure 2. Spring Content Rendition</em>
+</p>
 
 ## Summary
 

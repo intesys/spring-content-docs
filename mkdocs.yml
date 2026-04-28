@@ -6,6 +6,7 @@ nav:
     - Java API: spring-content-fs-docs.md
     - REST API: spring-content-rest-docs.md
     - Renditions: spring-content-with-renditions-docs.md
+    - Metadata Extraction: spring-content-metadata-extraction-docs.md
     - Fulltext: spring-content-with-fulltext-docs.md
     - Versions: spring-content-with-versions-docs.md
     - RBAC: spring-content-with-rbac-docs.md

@@ -16,6 +16,8 @@ For creating cloud-native, horizontally scaling Content Management Services that
 
 - Content rendition and transformation
 
+- Metadata extraction from files
+
 - Pessimistic versioning or auto-versioning
 
 - REST or CMIS endpoints
@@ -38,6 +40,7 @@ For creating cloud-native, horizontally scaling Content Management Services that
 - Mongo - Store support for Mongo's GridFS storage
 - JPA - Store support for JPA BLOB storage
 - Renditions - Extensible rendition service for content transformations
+- Metadata Extraction - Extensible metadata extraction service from files
 - Solr - Content indexing and search with Apache Solr
 - Elasticsearch  - Content indexing and search with Elasticsearch
 - Versions Commons - Locking and versioning semantics for Entities and associated content
@@ -168,6 +171,16 @@ For more, check out our initial [Getting Started Guide](spring-content-fs-docs.m
             <td><a href="refs/snapshot/2.x.x/renditions-index.html">2.10.0</a></td>
             <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/renditions-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
             <td><a href="refs/snapshot/main/renditions-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
+        </tr>
+        <tr>
+            <th colspan=9>Metadata Extraction</th>
+        </tr>
+        <tr>
+            <td>Spring Content Metadata Extraction</td>
+            <td>Not implemented</td>
+            <td>Not implemented</td>
+            <td><a href="refs/release/{{ config.extra.spring_content_ga_version }}/metadata-extraction-index.html">{{ config.extra.spring_content_ga_version }}</a></td>
+            <td><a href="refs/snapshot/main/metadata-extraction-index.html">{{ config.extra.spring_content_snapshot_version }}</a></td>
         </tr>
         <tr>
             <th colspan=9>Versioning</th>

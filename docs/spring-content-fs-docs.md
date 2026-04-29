@@ -118,7 +118,7 @@ wherever the `FileContentRepository` is `@Autowired`.
 However, unlike our `FileRepository` we haven't annotated this as a
 `StoreRestResource` and therefore we don't automatically get REST
 endpoints for handling content.  This annotation does exist (and is the
-topic of our [next tutorial]((spring-content-rest-docs.md))) but, for now,
+topic of our [next tutorial](spring-content-rest-docs.md)) but, for now,
 we have to roll our own REST endpoints.
 
 ## Create a File Controller
